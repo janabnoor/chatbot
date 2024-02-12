@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+  	"tag": "greeting",
+ 	 "patterns": ["Hi", "Hello", "Hey", "Good day"],
+ 	 "responses": ["Hello! How can I assist you?", "Hi there! How can I help you today? " ,"Visit our official website [Nehru Colleges](https://nehrucolleges.com)for more information.", "Greetings! How may I help you?"],
+ 	 "context": [""]
+}
+,
+    {
+      "tag": "courses",
+      "patterns": ["What engineering courses are offered?", "Tell me about available courses", "Engineering disciplines", "Programs at the college"],
+      "responses": ["We offer courses in Computer Science, Electrical Engineering, Mechanical Engineering, and Civil Engineering.", "The college provides courses in Computer Science, Electrical Engineering, Mechanical Engineering, and Civil Engineering."],
+      "context": [""]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How can I apply for admission?", "Admission process", "Application procedure", "Enrollment details"],
+      "responses": ["To apply for admission, visit our official website and follow the admission guidelines provided. You can also contact the admission office for assistance.", "The admission process involves submitting an online application form and fulfilling the necessary requirements. Visit our website for detailed information."],
+      "context": [""]
+    },
+    {
+      "tag": "facilities",
+      "patterns": ["Tell me about the facilities", "College amenities", "Campus features", "Facilities available"],
+      "responses": ["Our college provides state-of-the-art facilities, including well-equipped laboratories, libraries, sports facilities, and modern classrooms. We focus on creating a conducive learning environment for our students."],
+      "context": [""]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["Tell me about placements", "How are the placements?", "Placement statistics", "Companies visiting for placements"],
+      "responses": ["Our college has an excellent placement record. The highest package offered is [highest_package]. Many reputed companies visit our campus, including [best_companies]. For detailed placement statistics, you can check our placement brochure or contact the placement cell."],
+      "context": [""]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["How can I contact the college?", "College address", "Contact details", "Get in touch"],
+      "responses": ["You can contact us at [college email] or visit our campus at [college address]. For more information, please check our official website or call [college phone number]."],
+      "context": [""]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Farewell", "Bye"],
+      "responses": ["Goodbye! If you have any more questions, feel free to return.", "Farewell! Don't hesitate to return if you need assistance. Have a great day!"],
+      "context": [""]
+    }
+  ]
+}
